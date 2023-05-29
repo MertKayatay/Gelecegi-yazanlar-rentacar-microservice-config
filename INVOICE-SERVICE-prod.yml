@@ -1,10 +1,10 @@
 spring:
   application:
-    name: filter-service
+    name: INVOICE-SERVICE
   data:
     mongodb:
-      database: filterdb-t1
-      uri: mongodb://localhost:27017
+      database: invoicedb-t1
+      uri: mongodb://localhost:27018
   kafka:
     consumer:
       auto-offset-reset: earliest
@@ -23,7 +23,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka
   instance:
-    instance-id: ${spring.application.name}:${instanceId:${random.value}}
+    instance-id: ${spring.application.name}:${random.value}
     prefer-ip-address: true
 server:
   port: 0

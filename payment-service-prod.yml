@@ -1,10 +1,10 @@
 spring:
   application:
-    name: payment-service
+    name: PAYMENT-SERVICE
   datasource:
     username: postgres
-    password: postgres
-    url: jdbc:postgresql://localhost:5432/t1-payment-service
+    password: '1'
+    url: jdbc:postgresql://localhost:5433/paymentdb-t1
   jpa:
     properties:
       hibernate:
@@ -22,8 +22,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka
   instance:
-    instance-id: ${spring.application.name}:${random.value}}
+    instance-id: ${spring.application.name}:${random.value}
     prefer-ip-address: true
 server:
   port: 0
-

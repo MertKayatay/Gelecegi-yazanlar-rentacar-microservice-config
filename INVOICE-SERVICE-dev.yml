@@ -1,10 +1,12 @@
 spring:
   application:
-    name: FILTER-SERVICE
+    name: INVOICE-SERVICE
   data:
     mongodb:
-      database: filterdb-t1
-      uri: mongodb://localhost:27017
+      database: invoicedb-t1
+      uri: mongodb://localhost:27018
+      host: mongodb_invoice
+      port: 27018
   kafka:
     consumer:
       auto-offset-reset: earliest
