@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ab2bf53e-8a41-492b-8f68-21fadc2470f5" name="Changes" comment="commit">
-      <change beforePath="$PROJECT_DIR$/api-gateway-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filter-service-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/filter-service-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filter-service-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory-service-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maintenance-service-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/maintenance-service-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maintenance-service-prod.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rental-service-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rental-service-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rental-service-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rental-service-prod.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +23,33 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mertkayatay/Desktop/TurkcellBootcamp/gelecegi-yazanlar-rentacar-microservice-config&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="gelecegi-yazanlar-rentacar-microservice-config" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="gelecegi-yazanlar-rentacar-microservice-config" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -47,6 +61,15 @@
       <workItem from="1685131651930" duration="120000" />
       <workItem from="1685131814252" duration="21000" />
       <workItem from="1685355220598" duration="54000" />
+      <workItem from="1685355301359" duration="54000" />
+      <workItem from="1685383599511" duration="433000" />
+      <workItem from="1685384349987" duration="498000" />
+      <workItem from="1685384852831" duration="57000" />
+      <workItem from="1685384913570" duration="12000" />
+      <workItem from="1685384929966" duration="24000" />
+      <workItem from="1685385004395" duration="10000" />
+      <workItem from="1686307708144" duration="494000" />
+      <workItem from="1686308217903" duration="1551000" />
     </task>
     <task id="LOCAL-00001" summary="commit1">
       <created>1685131721908</created>
@@ -62,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685131829589</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit">
+      <created>1685355348054</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685355348054</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
