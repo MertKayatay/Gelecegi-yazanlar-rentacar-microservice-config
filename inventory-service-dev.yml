@@ -2,10 +2,10 @@ spring:
   application:
     name: INVENTORY-SERVICE
   security:
-  oauth2:
-   resourceserver:
-    jwt:
-     jwk-set-uri: http://localhost:8080/realms/turkcellmicroservice/protocol/openid-connect/certs
+   oauth2:
+    resourceserver:
+     jwt:
+      jwk-set-uri: http://localhost:8080/realms/turkcellmicroservice/protocol/openid-connect/certs
   datasource:
     password: postgres
     url: jdbc:postgresql://localhost:5432/inventorydb-t1
